@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExhangeRateService", "ExhangeRateService\ExhangeRateService.csproj", "{D3982BC6-D4D1-4330-B3AA-01FAA67C3F3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRateTest", "ExchangeRateTest\ExchangeRateTest.csproj", "{110ED9C9-1096-4CB8-A4BC-038BCE61CCCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D3982BC6-D4D1-4330-B3AA-01FAA67C3F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3982BC6-D4D1-4330-B3AA-01FAA67C3F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3982BC6-D4D1-4330-B3AA-01FAA67C3F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110ED9C9-1096-4CB8-A4BC-038BCE61CCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110ED9C9-1096-4CB8-A4BC-038BCE61CCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110ED9C9-1096-4CB8-A4BC-038BCE61CCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110ED9C9-1096-4CB8-A4BC-038BCE61CCCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
