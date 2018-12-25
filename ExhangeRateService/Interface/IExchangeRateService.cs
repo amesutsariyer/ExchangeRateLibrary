@@ -10,6 +10,7 @@ namespace ExhangeRateService.Interface
     public interface IExchangeRateService
     {
         ResponseModel GetAllCurrency();
+        ResponseModel GetLiveCurrency();
     }
 
 }

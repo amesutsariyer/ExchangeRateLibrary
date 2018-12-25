@@ -13,7 +13,7 @@ namespace ExchangeRateTest
         static void Main(string[] args)
         {
             ExchangeRateService exchangeService = new ExchangeRateService();
-            var model = exchangeService.GetAllCurrency();
+            var model = exchangeService.GetLiveCurrency();
 
         }
     }

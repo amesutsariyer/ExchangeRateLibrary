@@ -20,5 +20,33 @@ namespace ExhangeRateService.Service
         {
           return _service.Get();
         }
+        public ResponseModel GetLiveCurrency()
+        {
+            try
+            {
+                List<string> currencyList = new List<string>();
+                List<AlphavantageBaseModel> model = new List<AlphavantageBaseModel>();
+                currencyList.Add("USD");
+                currencyList.Add("EUR");
+                currencyList.Add("GBP");
+                foreach (var cl in currencyList)
+                {
+                    model.Add(_service.GetCurrency(cl).Result as AlphavantageBaseModel);
+                }
+                return new ResponseModel()
+                {
+                    Status=true,
+                    Result =model
+                };
+            }
+            catch ( Exception ex)
+            {
+                return new ResponseModel()
+                {
+                     Status = false,
+                     Result = ex.Message
+                };
+            }
+        }
     }
 }
